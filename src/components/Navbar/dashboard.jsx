@@ -107,7 +107,7 @@ const DashboardPage = () => {
             </div>
             <div>
               <button className="button-viewall">VIEW ALL SERVICES</button>
-            </div>  
+            </div>
           </div>
           <Row>
             <Col lg={4} className="">
@@ -223,11 +223,7 @@ const DashboardPage = () => {
               </div>
             </div>
           </div>
-          <div
-            data-aos="fade-left"
-            data-aos-duration="300"
-            data-aos-easing="ease-in-sine"
-          >
+          <div data-aos="fade-up" data-aos-anchor-placement="center-bottom">
             <div className="bc-img3lay">
               <div>
                 <p> EXPLORE OUR WORK</p>
