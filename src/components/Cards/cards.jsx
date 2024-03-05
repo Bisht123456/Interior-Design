@@ -195,6 +195,29 @@ const Cards = () => {
                         src={items[currentIndex]?.image}
                         alt=""
                       />
+                      <div className="pre_next_button">
+                        <button
+                          className="butttonone"
+                          onClick={handleNext}
+                          style={{
+                            display:
+                              currentIndex === items.length - 1
+                                ? "none"
+                                : "block",
+                          }}
+                        >
+                          NEXT
+                        </button>
+                        <button
+                          className="butttontwo"
+                          onClick={handlePrevious}
+                          style={{
+                            display: currentIndex === 0 ? "none" : "block",
+                          }}
+                        >
+                          PREVIOUS
+                        </button>
+                      </div>
                     </div>
                   </Col>
                   <Col lg={4} className="carou-test">
@@ -210,24 +233,6 @@ const Cards = () => {
                   </Col>
                 </>
               </Row>
-            </div>
-            <div className="pre_next_button">
-              <button
-                className="butttonone"
-                onClick={handleNext}
-                style={{
-                  display: currentIndex === items.length - 1 ? "none" : "block",
-                }}
-              >
-                NEXT
-              </button>
-              <button
-                className="butttontwo"
-                onClick={handlePrevious}
-                style={{ display: currentIndex === 0 ? "none" : "block" }}
-              >
-                PREVIOUS
-              </button>
             </div>
           </div>
         </div>
