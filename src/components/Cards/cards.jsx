@@ -250,7 +250,7 @@ const Cards = () => {
         </div>
         <Row>
           <Col lg={4} className="mx-0">
-            <div data-aos="fade-up" data-aos-anchor-placement="center-bottom">
+          <div data-aos="zoom-out-left">
               {" "}
               <Card className="bkcard-img m-0">
                 <Card.Body className="body-carali-n ">
@@ -299,7 +299,7 @@ const Cards = () => {
             </div>
           </Col>
           <Col lg={4}>
-            <div data-aos="fade-up" data-aos-anchor-placement="center-bottom">
+           <div data-aos="zoom-out-left">
               <Card className="bkcard-img2  fsfs">
                 <Card.Body className="body-carali-n">
                   <Card.Title className="par-grph">
@@ -347,7 +347,7 @@ const Cards = () => {
             </div>
           </Col>
           <Col lg={4}>
-            <div data-aos="fade-up" data-aos-anchor-placement="center-bottom">
+           <div data-aos="zoom-out-left">
               <Card className="bkcard-img3 fssfds">
                 <Card.Body className="body-carali-n">
                   <Card.Title className="par-grph">
