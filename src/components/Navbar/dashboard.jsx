@@ -96,7 +96,7 @@ const DashboardPage = () => {
             </div>
           </div>
         </div>
-        <div style={{ padding: "0px 50px ", marginTop: "70px" }}>
+        <div style={{ padding: "0px 0px ", marginTop: "70px" }}>
           <div
             className="d-flex justify-content-between align-items-center"
             style={{ marginTop: "60px", padding: "60px 0px" }}
@@ -201,11 +201,7 @@ const DashboardPage = () => {
               </div>
             </Col>
           </Row>
-          <div
-            data-aos="fade-right"
-            data-aos-duration="300"
-            data-aos-easing="ease-in-sine"
-          >
+          <div data-aos="fade-up" data-aos-anchor-placement="center-bottom">
             <div className="bkone-img">
               <p className="abt-t-id">ABOUT THIS</p>
               <h1>

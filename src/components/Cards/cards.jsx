@@ -68,7 +68,7 @@ const Cards = () => {
     <>
       <div className="pb-5">
         <Row>
-          <Col lg={4} className="mx-0">
+          <Col lg={4} className="">
             <div data-aos="fade-up" data-aos-anchor-placement="center-bottom">
               {" "}
               <Card className="bkcard-img">
@@ -126,9 +126,8 @@ const Cards = () => {
         </Row>
         <div style={{ marginBottom: "100px" }}>
           <Row>
-            <Col lg={4} className="mx-0">
+            <Col lg={4} className="">
               <div data-aos="fade-up" data-aos-anchor-placement="center-bottom">
-                {" "}
                 <Card className="bkcard-img">
                   <Card.Body className="body-carali-n ">
                     <Card.Title className="par-grph">
@@ -183,7 +182,7 @@ const Cards = () => {
             </Col>
           </Row>
         </div>
-        <div data-aos="fade-up-right">
+        <div data-aos="fade-up" data-aos-anchor-placement="center-bottom">
           <div className="mn-divclr">
             <div>
               <Row className="">
@@ -250,7 +249,7 @@ const Cards = () => {
         </div>
         <Row>
           <Col lg={4} className="mx-0">
-          <div data-aos="zoom-out-left">
+            <div data-aos="fade-up" data-aos-anchor-placement="center-bottom">
               {" "}
               <Card className="bkcard-img m-0">
                 <Card.Body className="body-carali-n ">
@@ -299,7 +298,7 @@ const Cards = () => {
             </div>
           </Col>
           <Col lg={4}>
-           <div data-aos="zoom-out-left">
+            <div data-aos="fade-up" data-aos-anchor-placement="center-bottom">
               <Card className="bkcard-img2  fsfs">
                 <Card.Body className="body-carali-n">
                   <Card.Title className="par-grph">
@@ -347,7 +346,7 @@ const Cards = () => {
             </div>
           </Col>
           <Col lg={4}>
-           <div data-aos="zoom-out-left">
+            <div data-aos="fade-up" data-aos-anchor-placement="center-bottom">
               <Card className="bkcard-img3 fssfds">
                 <Card.Body className="body-carali-n">
                   <Card.Title className="par-grph">
